@@ -25,7 +25,7 @@ int main() {
 	PassCodes.open("PassCodes.txt");
 	//Cout
 	PassCodes << "First Number:" << rand()%9 << endl;
-PassCodes << "Second Number:" << rand()%9  + 1<< endl;
+PassCodes << "Second Number:" << rand()%9<< endl;
 PassCodes << "Third Number:" << rand()%9 << endl;
 PassCodes << "Fourth Number:" << rand()%9 << endl;
 PassCodes << "TIME: " << dt << endl;
